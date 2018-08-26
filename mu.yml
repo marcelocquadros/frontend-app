@@ -3,6 +3,8 @@ service:
   port: 8080
   pathPatterns:
   - /*
+  environment:
+    BACKEND_APP_URL: "http:/backend-app"
   pipeline:
     source:
       provider: GitHub
