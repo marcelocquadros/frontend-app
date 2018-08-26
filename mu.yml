@@ -3,6 +3,7 @@ service:
   port: 8080
   pathPatterns:
   - /*
+  discoveryTTL: 5
   environment:
     BACKEND_APP_URL: "http://backend-app"
   pipeline:
