@@ -1,5 +1,6 @@
 ---
 service:
+  name: frontend-app
   port: 8080
   pathPatterns:
   - /*
