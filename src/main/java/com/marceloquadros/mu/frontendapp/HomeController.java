@@ -24,7 +24,7 @@ public class HomeController {
 
     @GetMapping("/backend")
     public String backend(){
-
+        System.out.println("Url from properties: >>>>> " + backendUrl);
         return restTemplate.getForEntity(backendUrl + "/persons" ,String.class).getBody();
 
     }

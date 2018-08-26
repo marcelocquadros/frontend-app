@@ -4,7 +4,7 @@ service:
   pathPatterns:
   - /*
   environment:
-    BACKEND_APP_URL: "http:/backend-app"
+    BACKEND_APP_URL: "http://backend-app"
   pipeline:
     source:
       provider: GitHub
