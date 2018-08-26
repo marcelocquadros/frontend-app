@@ -1,0 +1,10 @@
+service:
+  port: 8080
+  pathPatterns:
+  - /*
+  pipeline:
+    source:
+      provider: GitHub
+      repo: marcelocquadros/frontend-app
+    build: 
+      image: aws/codebuild/java:openjdk-8
