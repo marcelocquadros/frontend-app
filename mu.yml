@@ -3,7 +3,7 @@ service:
   name: frontend-app
   port: 8080
   pathPatterns:
-  - /*
+    - /*
   networkMode: awsvpc
   environment:
     BACKEND_APP_URL: "http://backend-app"
