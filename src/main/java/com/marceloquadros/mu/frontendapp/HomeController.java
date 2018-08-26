@@ -19,7 +19,7 @@ public class HomeController {
 
     @GetMapping
     public String index(){
-        return "It Works";
+        return "It Works!";
     }
 
     @GetMapping("/backend")
