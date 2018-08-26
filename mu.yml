@@ -4,7 +4,7 @@ service:
   port: 8080
   pathPatterns:
   - /*
-  discoveryTTL: 5
+  networkMode: awsvpc
   environment:
     BACKEND_APP_URL: "http://backend-app"
   pipeline:
