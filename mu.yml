@@ -6,7 +6,7 @@ service:
     - /*
   # networkMode: awsvpc
   environment:
-    BACKEND_APP_URL: "http://mu-service-backend-app-dev"
+    BACKEND_APP_URL: "http://backend-app"
   pipeline:
     source:
       provider: GitHub
