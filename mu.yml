@@ -1,7 +1,4 @@
 ---
-environments:
-  - name: dev
-
 service:
   port: 8080
   pathPatterns:
@@ -12,3 +9,9 @@ service:
       repo: marcelocquadros/frontend-app
     build:
       image: aws/codebuild/java:openjdk-8
+     acceptance:
+       disabled: false                         # Disable the acceptance stage of the pipeline (default: false)
+       environment: dev
+     production:
+       disabled: true                         # Disable the production stage of the pipeline (default: false)
+       environment: production                 # The environment name to deploy to for production (default: production)
