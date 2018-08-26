@@ -1,5 +1,5 @@
 environments:
-  - name: dev
+ - name: dev
 service:
   port: 8080
   pathPatterns:
