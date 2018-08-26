@@ -2,8 +2,8 @@
 service:
   port: 8080
   pathPatterns:
-  - /
-  - /persons
+    - /
+    - /persons
   pipeline:
     source:
       provider: GitHub
